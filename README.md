@@ -1,4 +1,3 @@
-# 本项目已停止更新，请您使用其他开源软件代替。
 - https://github.com/LeoHaoVIP/AListLiteAndroid
 - https://github.com/OpenListApp/OpenListApp
 
@@ -17,7 +16,7 @@ AListFlutter是一个基于AList的Android服务端，使用Google Flutter作为
 
 > [Github Actions](https://github.com/jing332/AListFlutter/actions/workflows/sync_alist.yaml)
 > 每日早晚五点钟检查最新的 [AList](https://github.com/alist-org/alist/releases)
-> 并自动构建APK，发布到 [Release](https://github.com/jing332/AListFlutter/releases)
+> 并自动构建APK，发布到 [Release](https://github.com/dexnb/AListFlutter/releases)
 > 中，您只需耐心等待片刻并在应用内检查更新即可。
 
 <img src="./images/alist.jpg" height="150px">
@@ -31,5 +30,5 @@ AListFlutter是一个基于AList的Android服务端，使用Google Flutter作为
 
 # Download
 
-- [Github Action (DEV)](https://github.com/jing332/AListFlutter/actions/workflows/build.yaml) 开发版
+- [Github Action (DEV)](https://github.com/dexnb/AListFlutter/actions/workflows/build.yaml) 开发版
 

@@ -49,6 +49,6 @@ jobs:
       - name: Run workflow release
         if: env.alist_update == 1 && ( success() || failure() )
         run: |
-          gh workflow run release.yaml -R jing332/AListFlutter
+          gh workflow run release.yaml -R dexnb/AListFlutter
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  

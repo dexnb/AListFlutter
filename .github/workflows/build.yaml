@@ -8,10 +8,12 @@ on:
       - "*.md"
       - "*.sh"
       - "release.yaml"
-  #      - "sync_frp.yaml"
-
   workflow_dispatch:
-
+  
+  # 🕒 新增：定时触发（采用 Cron 表达式）
+  schedule:
+    - cron: '0 10 * * *'  # 每天国际标准时间 00:00 (北京时间早上 8 点) 自动运行检查
+    
 jobs:
   android:
     runs-on: ubuntu-latest

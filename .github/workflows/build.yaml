@@ -8,11 +8,10 @@ on:
       - "*.md"
       - "*.sh"
       - "release.yaml"
+  #      - "sync_frp.yaml"
+
   workflow_dispatch:
-  
-  schedule:
-    - cron: '0 10 * * *'
-    
+
 jobs:
   android:
     runs-on: ubuntu-latest
